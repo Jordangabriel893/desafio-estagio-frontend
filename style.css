@@ -2,6 +2,8 @@ body {
     display: flex;
     background-color: #f0f0f0;
     justify-content: center;
+    align-items:center;
+    flex-direction: column;
   }
   
   .flex {
@@ -116,7 +118,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
   }
   button {
     width: 11em;
@@ -130,7 +132,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
   }
   
   .flex__footer {
@@ -155,6 +157,17 @@ body {
     padding-top: 15px;
     padding-right: 25px;
     padding-bottom: 15px;
+  }
+  
+  .flex__cancel{
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, "Geneva", Verdana, sans-serif;
+    color: #61686a;
+    
+  }
+  .flex__cancel-border{
+    color:#5ae6f8;
+    text-decoration: none;
   }
   
   @media (max-width: 375px) {
